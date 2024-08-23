@@ -1,4 +1,4 @@
-REGION                  = "ap-south-l"
+REGION                  = "ap-south-1"
 PROJECT_NAME            = "Terraform-Project-Book-Shop"
 VPC_CIDR                = "10.0.0.0/16"
 PUB_SUB_1_A_CIDR        = "10.0.1.0/24"
