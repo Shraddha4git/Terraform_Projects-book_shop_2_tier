@@ -1,4 +1,4 @@
-
+/*
 # creating VPC
 module "VPC" {
   source           = "../modules/vpc"
@@ -13,7 +13,7 @@ module "VPC" {
   PRI_SUB_6_B_CIDR = var.PRI_SUB_6_B_CIDR
 }
 
-
+*/
 # cretea NAT-NAT-GW
 module "NAT-GW" {
   source = "../modules/nat-gateway"
