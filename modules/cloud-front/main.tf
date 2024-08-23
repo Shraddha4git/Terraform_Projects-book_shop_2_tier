@@ -9,7 +9,7 @@ data "aws_acm_certificate" "issued" {
 #creating Cloudfront distribution :
 resource "aws_cloudfront_distribution" "my_distribution" {
   enabled             = true
-  aliases             =  [var.ADDITIONAL_DOMAIN_NAME]
+  # aliases             =  [var.ADDITIONAL_DOMAIN_NAME]
   origin {
     domain_name = var.ALB_DOMAIN_NAME
     origin_id   = var.ALB_DOMAIN_NAME
