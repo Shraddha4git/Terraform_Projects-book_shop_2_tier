@@ -93,10 +93,10 @@ module "CLOUDFRONT" {
 
 
 # Add record in route 53 hosted zone
-
+/*
 module "ROUTE53" {
   source = "../modules/route-s3"
   CLOUDFRONT_DOMAIN_NAME = module.CLOUDFRONT.CLOUDFRONT_DOMAIN_NAME
   CLOUDFRONT_HOSTED_ZONE_ID = module.CLOUDFRONT.CLOUDFRONT_HOSTED_ZONE_ID
 
-}
+}*/
